@@ -110,12 +110,27 @@ header .search-bar button {
   display: none;
 }
 
+.arrow-container {
+  width: fit-content;
+  margin: 0;
+  padding: 16px 0 0 16px;
+}
+
+.arrow-container img {
+  width: 40px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
 .ul-container {
   padding: 64px 32px 0 32px;
 }
 
 .ul-container .movies-container {
-  margin-bottom: 0;
+  margin: 0;
   display: grid;
   list-style: none;
   grid-template-columns: repeat(auto-fill, 250px);
@@ -164,7 +179,6 @@ header .search-bar button {
 }
 
 .movie-detail-container {
-  padding-top: 5%;
   margin-bottom: 74px;
 }
 
@@ -255,6 +269,40 @@ h1 {
   font-size: 32px;
 }
 
+.load-button-container {
+  height: 35px;
+  width: 120px;
+  position: relative;
+  margin: 32px auto 32px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px #949494;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.load-button-container:hover {
+  border-color: #e3e3e3;
+  color: #ebebeb;
+}
+
+.load-button-container:hover .load-more-button {
+  color: #ebebeb;
+}
+
+.load-more-button
+{
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: #949494;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 footer {
   position: absolute;
   bottom: 0;
@@ -286,6 +334,12 @@ footer .github-logo {
   filter:  invert();
 }
 
+.error-404 {
+  height:60vh;
+  text-align: center;
+  font-family: Lato;
+  color: #e3e3e3;
+}
 
 @media (max-width: 612px) {
   
@@ -299,6 +353,10 @@ footer .github-logo {
 
   header {
     height: 110px;
+  }
+
+  .load-button-container {
+    
   }
 
   footer {
