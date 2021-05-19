@@ -1,6 +1,6 @@
 const Error404 = () => {
     document.getElementById("back-arrow").className = "hide";
-    document.getElementsByClassName('load-button-container').className = "hide";
+    document.getElementById('load-button-container').className = "hide";
     let view = `
          <div class="arrow-container">
             <img src="../img/arrow-back.svg" alt="go back" class="arrow-back" onclick="history.go(-1)">

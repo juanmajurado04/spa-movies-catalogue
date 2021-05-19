@@ -2,10 +2,10 @@ const Footer = () => {
     const view = `
     <div class="footer-content">
     <a href="https://github.com/juanmajurado04">
-      <img src="../../img/github.png" alt="github" class="github-logo">
+      <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="github" class="github-logo">
     </a>
     <a href="https://www.instagram.com/juanmajurado_/">
-      <img src="../../img/instagram.png" alt="instagram" class="instagram-logo">
+      <img src="https://image.flaticon.com/icons/png/512/87/87390.png" alt="instagram" class="instagram-logo">
     </a>
   </div>
     `;
